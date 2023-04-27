@@ -114,15 +114,23 @@ div.section1>p{
 }
 
 .section2{
-    padding:1rem
+    padding:1rem;
+    color: lightgray;
+    
 }
 
 
+div.section2>h1{
+    margin-left: 1rem;
+}
+
 .card{
     width: calc(100% / 6 - 1rem);
-    background-color: red;
+    background-color: aqua;
     margin-left: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: lightgray;
 } 
 
 .row{
@@ -131,4 +139,14 @@ div.section1>p{
 
 div.card>img{
     width: 100%;
+}
+
+
+div.card>h3{
+    color: white;
+}
+
+.suggest{
+    margin-top: 3rem;
+    margin-left: 1rem;
 }
