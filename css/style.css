@@ -39,3 +39,81 @@ header>div{
 header{
     background-color:#080b12 ;
 }
+
+
+.container{
+    max-width: 1536px;
+    height: 1000px;
+}
+
+.first{
+    height: 100%;
+    width: 20%;
+    background-color: black;
+    color: lightgray;
+}
+
+.second{
+    height: 100%;
+    width: 80%;
+    background-color:#141922 ;
+}
+
+div.first>div>img{
+    width: 20px;
+}
+
+div.first>div>p{
+    display: inline;
+}
+
+div.first>*{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+#home{
+    border-left: lime;
+    color: white;
+}
+
+#playlist{
+    filter: invert();
+    width: 50px;
+    vertical-align: middle;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+div.flex.column.space-around>p{
+    margin-top: 1rem;
+}
+
+.color-white{
+    color: white;
+}
+
+.column-foot{
+    margin-top: 10rem;
+}
+
+.section1{
+    color: lightgray;
+    padding: 1rem;
+    justify-content: center;
+}
+
+div.section1>p{
+    margin-left: 2rem;
+}
+
+.section2{
+    padding:1rem
+}
+
