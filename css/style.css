@@ -101,6 +101,7 @@ div.index>p{
     padding:1rem;
     color: lightgray;
     
+    
 }
 
 .color-white{
@@ -139,4 +140,8 @@ div.card>h3{
 
 .circle{
     border-radius: 50%;
+}
+
+.section2{
+    overflow: auto;
 }
