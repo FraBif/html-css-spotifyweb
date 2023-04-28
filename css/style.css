@@ -212,14 +212,12 @@ div.footer-section>div.flex.column{
 }
 
 #played{
-    margin-right: 1rem;
     width: 30%;
     height: 100%;
     background-color: white;
 }
 
 #remaning{
-    margin-left: 1rem;
     width: 70%;
     height: 100%;
     background-color: grey;
@@ -232,4 +230,9 @@ div.footer-section>div.flex.column{
 div.player>*{
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+div.time>p{
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
