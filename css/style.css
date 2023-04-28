@@ -86,3 +86,57 @@ div.navbar>*{
     border-radius: 16px;
     align-self: center;
   }
+
+.index{
+    color: lightgray;
+    padding: 1rem;
+    justify-content: center;
+}
+
+div.index>p{
+    margin-left: 2rem;
+}
+
+.display{
+    padding:1rem;
+    color: lightgray;
+    
+}
+
+.color-white{
+    color: white;
+}
+
+div.display>h1{
+    margin-left: 1rem;
+}
+
+.card{
+    width: calc(100% / 6 - 1rem);
+    margin-left: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    color: lightgray;
+} 
+
+.row{
+    flex-wrap: wrap;
+}
+
+div.card>img{
+    width: 100%;
+}
+
+
+div.card>h3{
+    color: white;
+}
+
+.suggest{
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.circle{
+    border-radius: 50%;
+}
