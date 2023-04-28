@@ -61,6 +61,7 @@ header{
     height: 100%;
     width: 87%;
     background-color:#141922 ;
+    overflow: auto;
 }
 
 div.first>div>img{
@@ -178,3 +179,11 @@ div.footer-section>div.flex.column{
 .icons{
     margin-left: 3rem;
 }
+
+.volume{
+    height: 5px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
