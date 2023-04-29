@@ -7,7 +7,7 @@
 .navbar{
     height: calc(100vh - 100px);
     width: 200px;
-    background-color: red;
+    background-color: black;
     color: lightgray;
 }
 
@@ -34,22 +34,22 @@ footer{
 .section-head{
     width: 100%;
     height: 10%;
-    background-color: green;
+    background-color:#101010;
     justify-content: flex-end;
 }
 
 .section2{
     width: 100%;
     height: 90%;
-    background-color: aqua;
+    background-color:#141922;
 }
 
 #logo{
-    width: 200px;
+    width: 150px;
     align-self: center;
-    padding: 1rem;
     margin-right: 1.2rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 div.navbar>div>img{
@@ -145,3 +145,91 @@ div.card>h3{
 .section2{
     overflow: auto;
 }
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(79, 76, 76);
+    color: white;
+
+}
+
+div.footer-section>img{
+    width: 60px;
+    margin-left: 1.5rem;
+}
+
+
+div.footer-section>div.flex.column{
+    margin-left: 1rem;
+}
+
+.icons{
+    margin-left: 3rem;
+}
+
+.volume{
+    width: 400px;
+    height: 5px ;
+    border: 1px solid black;
+    margin-top: .5rem;
+}
+
+.volume1{
+    height: 5px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+
+.right-footer>*{
+    margin-left: 0.1rem;
+    margin-right: 1rem;
+}
+
+.volume3{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+}
+
+.volume4{
+    width: 70%;
+    height: 100%;
+    background-color: grey;
+}
+
+#played{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+}
+
+#remaning{
+    width: 70%;
+    height: 100%;
+    background-color: grey;
+}
+
+.time{
+    margin-top: 1rem;
+}
+
+div.player>*{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+div.time>p{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
