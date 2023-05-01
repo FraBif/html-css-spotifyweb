@@ -233,3 +233,23 @@ div.time>p{
     justify-content: space-between;
 }
 
+
+@media screen and (max-width: 878px) {
+    .card{
+        width: calc(100% / 4 - 1rem);
+        margin-left: 1rem;
+        margin-top: 2rem;
+        text-align: center;
+        color: lightgray;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .card{
+        width: calc(100% / 2 - 1rem);
+        margin-left: 1rem;
+        margin-top: 2rem;
+        text-align: center;
+        color: lightgray;
+    }
+}
